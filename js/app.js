@@ -5,12 +5,12 @@
 //     console.log("Counting up from " + i);
 // }
 
-//Get Even
+//2. Get Even
 // for (let i = 0; i <= 200; i+=2) {
 //     console.log("Even numbers only! Logging: ")
 // }
 
-//2. Excited Kitten
+//3. Excited Kitten
 
 // const response = ["human...why you taking pictures of me?", "the catnip made me do it", "why does the red dot always get away"];
 
@@ -22,9 +22,11 @@
 // }
 // }
 
-//3. FizzBuzz();
-// for (let number = 0; x <= 20; number++) {
-// if (number % 3 === 0 && x % 5 === 0) {
+//4. FizzBuzz();
+
+
+// for (let number = 0; number <= 20; number++) {
+// if (number % 3 === 0 && number % 5 === 0) {
 //     console.log("fizzbuzz");
 //   } else if (number % 3 === 0) {
 //     console.log("fizz");
@@ -35,45 +37,138 @@
 // }}
 
 
-//4. GETTING TO KNOW YOU
-// const shahzad = ["Shahzad", 1000, "Austin"];
-// const jim = ["Jim", 16, "All cities"];
-// const reuben = ["Reuben", 22, "Durham"];
-// const daniel = ["Daniel", 186, "Dallas"];
-// const ryan = ["Ryan", 65, "Denver"];
+//5. GETTING TO KNOW YOU
+const shahzad = ["Shahzad", 1000, "Austin"];
+const jim = ["Jim", 16, "All cities"];
+const reuben = ["Reuben", 22, "Durham"];
+const daniel = ["Daniel", 186, "Dallas"];
+const ryan = ["Ryan", 65, "Denver"];
 
-// shahzad.splice(0, 1, 'Gameboy');
-// console.log(shahzad);
+shahzad.splice(0, 1, 'Gameboy');
+console.log(shahzad);
 
+console.log(daniel[1]);
+daniel[1] += 1
+console.log(daniel[1]);
 
-// Daniel just had his birthday; change Daniel's array to 
-// reflect him being a year older. Don't just hard code 187--pretend 
-// that you don't know that his age is 186, and write your code to just make 
-// him a year older than whatever age he was.
+console.log(ryan[2]);
+ryan.splice(2, 1, 'Gotham City');
+console.log(ryan[2])
 
-// Ryan is Batman maybe. Or possibly Robin. Change Ryan's hometown from "Denver" to "Gotham City".
+console.log(reuben);
+reuben.pop();
+console.log(reuben);
+reuben.push('Chicago');
+console.log(reuben);
 
-// Reuben left Durham 5 years ago to come to Chicago. 
-// Remove "Durham" from Reuben's array and add "Chicago". 
-// (Note: remove and then add is different from simply changing the value at that index.)
+console.log(jim);
+jim.pop();
+console.log(jim);
+jim.push('Nome', 'Djibouti', 'Atlantis')
+console.log(jim);
+jim.splice(2, 1);
+console.log(jim);
 
-// Jim could be literally anywhere in the world. Remove "All cities" from his 
-// array, then pick any 3 cities you like, and add them to Jim's array. If you did it 
-// in 3 lines of code that's fine, but see if you can do it in one line of code
-
-// Bonus: Whoops! Jim is actually only allowed to be in one of two cities. 
-// Whatever the first of the 3 cities for Jim is now, remove it from the array using .splice()
-
-
-//5.
 
 //6.
 
-//7.
+//7. Yell at the ninja turtles
 
-//8.
 
-//9. Multiple of 3 and 5
+// Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+
+// Use a for loop to call .toUpperCase() on each of them and print out the result.
+
+// Bonus: Modify the answer you just wrote. Instead of all letters being uppercase, 
+// make the letters alternate back and forth between uppercase and lowercase.
+
+// let ninjaT = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+// for (let i = 0; i < ninjaT.length; i++) {
+// let currentNT = ninjaT[i].split("");
+// console.log(currentNT);
+// }
+
+//Create an array with the ninja turtles.
+//Cut them all out of the array so that they are their own objects, store them in different variables.
+//Split their letters apart and perform the toUppercase() on the letters.
+//
+
+
+
+
+
+
+
+// ninTurt = [Donatello, Leonardo, Raphael, Michaelangelo];
+// for (let i = 0; i < ninTurt.length; i++){
+//     let thisTurt = ninTurt[i].split("");
+//     //console.log(thisTurt[3]);
+//     // try split and join!!!
+//         for (let t = 2; t < thisTurt.length; t += 2){
+//             let thisTurtLetter = thisTurt[t];
+//             thisTurtLetter.toUpperCase();
+//             console.log(thisTurtLetter);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//8. Return of the Closets
+
+// const kristynsCloset = [
+//     "left shoe",
+//     "cowboy boots",
+//     "right sock",
+//     "GA hoodie",
+//     "green pants",
+//     "yellow knit hat",
+//     "marshmallow peeps"
+//   ];
+  
+//   // Thom's closet is more complicated. Check out this nested data structure!!
+//   const thomsCloset = [
+//     [
+//       // These are Thom's shirts
+//       "grey button-up",
+//       "dark grey button-up",
+//       "light blue button-up",
+//       "blue button-up",
+//     ],[
+//       // These are Thom's pants
+//       "grey jeans",
+//       "jeans",
+//       "PJs"
+//     ],[
+//       // Thom's accessories
+//       "wool mittens",
+//       "wool scarf",
+//       "raybans"
+//     ]
+//   ];
+
+//9. Dirty Laundry
+
+//10. Multiple of 3 and 5
 
 // let multiples = 0;
 // for (let i = 0; i < 1001; i++) {
