@@ -71,78 +71,53 @@
 
 
 // 6. NINJA TURTLES
-let ninjaTurt = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+// let ninjaTurt = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
 
-for (let i = 0; i < ninjaTurt.length; i++) {
-    let currentNT = ninjaTurt[i];
-    console.log(currentNT.toUpperCase());
-}
+// for (let i = 0; i < ninjaTurt.length; i++) {
+//     let currentNT = ninjaTurt[i];
+//     console.log(currentNT.toUpperCase());
+// }
 
+// 7. 
 
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
 
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
 
+const kristynsShoe = kristynsCloset.shift();
+console.log(kristynsShoe);
+thomsCloset[2].push(kristynsShoe);
+console.log(thomsCloset);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//8. Return of the Closets
-
-// const kristynsCloset = [
-//     "left shoe",
-//     "cowboy boots",
-//     "right sock",
-//     "GA hoodie",
-//     "green pants",
-//     "yellow knit hat",
-//     "marshmallow peeps"
-//   ];
-  
-//   // Thom's closet is more complicated. Check out this nested data structure!!
-//   const thomsCloset = [
-//     [
-//       // These are Thom's shirts
-//       "grey button-up",
-//       "dark grey button-up",
-//       "light blue button-up",
-//       "blue button-up",
-//     ],[
-//       // These are Thom's pants
-//       "grey jeans",
-//       "jeans",
-//       "PJs"
-//     ],[
-//       // Thom's accessories
-//       "wool mittens",
-//       "wool scarf",
-//       "raybans"
-//     ]
-//   ];
+console.log("Kristyn will be wearing her " + kristynsCloset[0] + ", just her " + kristynsCloset[1] + " and her favorite, her " + kristynsCloset[2] + ".");
+console.log("Thom will be wearing his " + thomsCloset[0][0] + ", his " + thomsCloset[1][0] + " and his " + thomsCloset[2][2] + ".");
 
 //9. Dirty Laundry
 
