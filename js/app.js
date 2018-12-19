@@ -1,84 +1,84 @@
 // DAY 3 HOMEWORK 
 
 //1. Easy Going
-// for (let i = 1; i <= 20; i++) {
-//     console.log("Counting up from " + i);
-// }
+for (let i = 1; i <= 20; i++) {
+    console.log("Counting up from " + i);
+}
 
 //2. Get Even
-// for (let i = 0; i <= 200; i+=2) {
-//     console.log("Even numbers only! Logging: ")
-// }
+for (let i = 0; i <= 200; i+=2) {
+    console.log("Even numbers only! Logging: ")
+}
 
 //3. Excited Kitten
 
-// const response = ["human...why you taking pictures of me?", "the catnip made me do it", "why does the red dot always get away"];
+const response = ["human...why you taking pictures of me?", "the catnip made me do it", "why does the red dot always get away"];
 
-// for (let i = 0; i <= 20; i++) {
-//     console.log("Love me, pet me! HSSSSSS!")
-//  if (i % 2 === 0){
-//     const randomNumberUpToThree = Math.floor(Math.random()*3)
-//     console.log(response[randomNumberUpToThree]);
-// }
-// }
+for (let i = 0; i <= 20; i++) {
+    console.log("Love me, pet me! HSSSSSS!")
+ if (i % 2 === 0){
+    const randomNumberUpToThree = Math.floor(Math.random()*3)
+    console.log(response[randomNumberUpToThree]);
+}
+}
 
 //4. FizzBuzz();
 
 
-// for (let number = 0; number <= 20; number++) {
-// if (number % 3 === 0 && number % 5 === 0) {
-//     console.log("fizzbuzz");
-//   } else if (number % 3 === 0) {
-//     console.log("fizz");
-//   } else if (number % 5 === 0) {
-//     console.log("buzz");
-//   } else {
-//     console.log("x");
-// }}
+for (let number = 0; number <= 20; number++) {
+if (number % 3 === 0 && number % 5 === 0) {
+    console.log("fizzbuzz");
+  } else if (number % 3 === 0) {
+    console.log("fizz");
+  } else if (number % 5 === 0) {
+    console.log("buzz");
+  } else {
+    console.log("x");
+}}
 
 
 //5. GETTING TO KNOW YOU
-// const shahzad = ["Shahzad", 1000, "Austin"];
-// const jim = ["Jim", 16, "All cities"];
-// const reuben = ["Reuben", 22, "Durham"];
-// const daniel = ["Daniel", 186, "Dallas"];
-// const ryan = ["Ryan", 65, "Denver"];
+const shahzad = ["Shahzad", 1000, "Austin"];
+const jim = ["Jim", 16, "All cities"];
+const reuben = ["Reuben", 22, "Durham"];
+const daniel = ["Daniel", 186, "Dallas"];
+const ryan = ["Ryan", 65, "Denver"];
 
-// shahzad.splice(0, 1, 'Gameboy');
-// console.log(shahzad);
+shahzad.splice(0, 1, 'Gameboy');
+console.log(shahzad);
 
-// console.log(daniel[1]);
-// daniel[1] += 1
-// console.log(daniel[1]);
+console.log(daniel[1]);
+daniel[1] += 1
+console.log(daniel[1]);
 
-// console.log(ryan[2]);
-// ryan.splice(2, 1, 'Gotham City');
-// console.log(ryan[2])
+console.log(ryan[2]);
+ryan.splice(2, 1, 'Gotham City');
+console.log(ryan[2])
 
-// console.log(reuben);
-// reuben.pop();
-// console.log(reuben);
-// reuben.push('Chicago');
-// console.log(reuben);
+console.log(reuben);
+reuben.pop();
+console.log(reuben);
+reuben.push('Chicago');
+console.log(reuben);
 
-// console.log(jim);
-// jim.pop();
-// console.log(jim);
-// jim.push('Nome', 'Djibouti', 'Atlantis')
-// console.log(jim);
-// jim.splice(2, 1);
-// console.log(jim);
+console.log(jim);
+jim.pop();
+console.log(jim);
+jim.push('Nome', 'Djibouti', 'Atlantis')
+console.log(jim);
+jim.splice(2, 1);
+console.log(jim);
 
 
 // 6. NINJA TURTLES
-// let ninjaTurt = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+let ninjaTurt = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
 
-// for (let i = 0; i < ninjaTurt.length; i++) {
-//     let currentNT = ninjaTurt[i];
-//     console.log(currentNT.toUpperCase());
-// }
+for (let i = 0; i < ninjaTurt.length; i++) {
+    let currentNT = ninjaTurt[i];
+    console.log(currentNT.toUpperCase());
+}
 
-// 7. 
+// 7. RETURN OF THE CLOSETS
 
 const kristynsCloset = [
   "left shoe",
@@ -121,12 +121,20 @@ console.log("Thom will be wearing his " + thomsCloset[0][0] + ", his " + thomsCl
 
 //9. Dirty Laundry
 
+for (let i = 0; i < kristynsCloset.length; i++) {
+  console.log('WHIRR: Now washing ' + kristynsCloset[i]);
+}
+
+for (let t = 0; t < thomsCloset.length; t++) {
+console.log(thomsCloset[t]);
+}
+
 //10. Multiple of 3 and 5
 
-// let multiples = 0;
-// for (let i = 0; i < 1001; i++) {
-//     if (i % 3 === 0 || i % 5 === 0) {
-//         multiples = multiples += i;
-//     }
-// }
-// console.log(multiples);
+let multiples = 0;
+for (let i = 0; i < 1001; i++) {
+    if (i % 3 === 0 || i % 5 === 0) {
+        multiples = multiples += i;
+    }
+}
+console.log(multiples);
